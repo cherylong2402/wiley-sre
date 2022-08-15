@@ -1,0 +1,57 @@
+BRANCH
+When you want to add a new feature or fix a bug,you spawn a new branch to encapsulate your changes. 
+This makes it harder for unstable code to get merged into the main code base
+By developing branches we can work on them in parallel and also keeps the main branch free from questionable code.
+It also gives you the chance to clean up your future's history before merging it into the main branch.
+
+
+The git branch command lets you create, list, rename and delete branches.
+When you create a branch, all Git needs to do is create a new pointer, it doesn’t change the repository in any other way.
+
+Create remote repo
+-
+git remote add repo1
+
+Add branch & Push remote repo to local repo 
+-
+git branch <branch_name>
+git push repo1 <name-of-branch> or
+git push <remote> <branch-name> or
+git push -u origin <branch_name>
+
+Delete branch
+-
+git branch -d <branch_name> or
+git branch -D <branch_name> or
+git push origin --delete <name-of-branch>
+
+View branch
+-
+git branch
+
+Switch Branch
+-
+git checkout <name-of-branch>
+
+
+
+FILES
+
+add files using git add
+remove files using git rm
+restore using git restore
+
+
+
+CLONE repo
+
+create repo
+create local folder in computer
+cd local folder
+
+git config --global user.name "Danielle Mills"
+git config --global user.email dmills9755@email.com
+
+git clone URL
+
+cd repo
