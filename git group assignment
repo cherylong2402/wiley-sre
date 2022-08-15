@@ -1,0 +1,8 @@
+git clone https://github.com/Woopoopoo/WileyEdgeGIT.git
+
+cd WileyEdgeGIT
+
+ git branch cherylbranch
+
+git push -u origin cherylbranch
+
