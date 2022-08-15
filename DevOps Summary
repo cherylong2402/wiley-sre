@@ -1,14 +1,18 @@
 Devlopment, Operations
 applies to insfrasture and operations
 
-
-
 It is not a tool, person, technology but a practice in software development and engineering
 
 DevOps - aims to unify different teams to work collaboratively.
 
+
+
 Waterfall approach -  the phases are siloed and each phase begins only when its previous phase is complete. (linear process)
 from requirements to deployment
+all project requirements can be gathered and understood upfront. 
+With the structured approach, it is easier to measure progress according to clearly defined milestones.
+
+
 
 Agile -iterative methodology that incorporates a cyclic and collaborative process. 
 apid delivery of an application in complete functional components.
