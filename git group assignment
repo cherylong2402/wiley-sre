@@ -6,3 +6,20 @@ cd WileyEdgeGIT
 
 git push -u origin cherylbranch
 
+everything is up to date
+git fetch 
+
+To switch into custom branch
+git checkout cherylbranch
+
+To initialize in the custom branch
+git init
+
+To add files in the custom branch
+git add cherylfile
+
+To commit the changes made in the custom branch
+git commit -m "hello there"
+
+To make changes in your GitHub repo
+git push
