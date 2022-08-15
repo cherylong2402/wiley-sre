@@ -32,6 +32,7 @@ git branch
 Switch Branch
 -
 git checkout <name-of-branch>
+git checkout master
 
 
 
