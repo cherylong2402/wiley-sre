@@ -19,7 +19,7 @@ To add files in the custom branch
 git add cherylfile
 
 To commit the changes made in the custom branch
-git commit -m "hello there"
+git commit -m "Create cherylfile"
 
 To make changes in your GitHub repo
 git push
