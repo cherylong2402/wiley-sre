@@ -1,0 +1,78 @@
+Devlopment, Operations
+applies to insfrasture and operations
+
+
+
+It is not a tool, person, technology but a practice in software development and engineering
+
+DevOps - aims to unify different teams to work collaboratively.
+
+Waterfall approach -  the phases are siloed and each phase begins only when its previous phase is complete. (linear process)
+from requirements to deployment
+
+Agile -iterative methodology that incorporates a cyclic and collaborative process. 
+apid delivery of an application in complete functional components.
+
+team of Planning, req analysis, designing, building, testing which works together instead of 
+having a separate team of designers and testers where they pass it on from one team to the next.
+Many iterations (1,2,3) for the main project 
+for plans who want to work faster
+
+
+
+'
+'
+'
+'
+'
+
+
+DevOps Engineers do 
+InfraCoders,Automation engineers,Developers,Testers,Security,Support
+
+
+(Environment)Work Areas consist of DEV,TEST,STAGING,PRODUCTION
+
+
+DevOps ensures environment has continuous Build,TestPackage,Deployment,Validatio
+
+
+DevTOOLS consist of 
+SCM - Git
+Revision/History control of code changes
+
+CI and automation servers - Jenkins
+Build and test code, automate tasks, create pipelines
+
+Automated Deployments - FluxCD
+Automatically deploy, or repeatable deployments
+
+Cloud - AWS
+Ability to use code to build everything
+
+Orchestration - Ansible
+Create environments, provision hosts and services, continuous updates of patches
+
+Containers(windows on windows/linux on linux)
+A way to package applications with all dependencies
+
+Container Services - Kubernetes
+Enterprise solution to managing containers and isolation
+
+Monitoring
+Systems for identifying issues and observing what is happening in our environments
+
+
+
+Communication channels for DevOps consists ofGit,Slack,HipChat,Email,SMS
+
+DevOps use cloud 
+On-demand applications
+Cloud provider launches yourapplication
+BECAUSE
+Data centres are expensive
+•Physical buildings
+•Physical machines
+•Power
+•Cooling
+•Updates and support
