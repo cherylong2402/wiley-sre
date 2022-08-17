@@ -36,3 +36,5 @@ pw:74ca5bd185e345fb8c71297b01abbafc
 Free to use, open source automation server
 Initially designed for the continuous integration (CI) cycle
 Pipeline from development to production
+
+It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery.
