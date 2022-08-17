@@ -1,0 +1,38 @@
+Today's steps
+-Create ec2 instance in AWS
+-Connect to intance and install java and jenkins
+-Add security group to allow all traffic
+-Copy ip4 address and paste to new tab
+-add :8080 behind to go to setup wizard jenkins
+-copy file in red and paste in instance (sudo cat<file>)
+-copy administrator password and paste in setup wizard
+-install suggested plugins
+-continue as admin
+
+INSTANCE CODES
+sudo apt update 
+
+sudo apt install openjdk-8-jdk openjdk-8-jre
+
+java -version
+
+curl -s https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/Jenkins.gpg --import
+sudo chmod 644 /etc/apt/trusted.gpg.d/Jenkins.gpg
+
+echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+
+sudo apt-get update
+
+sudo apt-get install jenkins
+
+sudo systemctl start jenkins
+
+sudo systemctl status jenkins
+
+username:admin
+pw:74ca5bd185e345fb8c71297b01abbafc
+
+
+Free to use, open source automation server
+Initially designed for the continuous integration (CI) cycle
+Pipeline from development to production
