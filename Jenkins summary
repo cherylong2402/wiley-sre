@@ -36,5 +36,12 @@ pw:74ca5bd185e345fb8c71297b01abbafc
 Free to use, open source automation server
 Initially designed for the continuous integration (CI) cycle
 Pipeline from development to production
+Built with Java, it provides over 1,800 plugins to support automating virtually anything
 
 It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery.
+
+Jenkins is commonly used for:
+Building projects
+Running tests to detect bugs and other issues as soon as they are introduced
+Static code analysis
+Deployment
