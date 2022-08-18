@@ -1,11 +1,24 @@
-Started by user admin
-Running as SYSTEM
-Building in workspace /var/lib/jenkins/workspace/test
-[WS-CLEANUP] Deleting project workspace...
-[WS-CLEANUP] Deferred wipeout is used...
-[WS-CLEANUP] Done
-[test] $ /bin/sh -xe /tmp/jenkins7146721840800317348.sh
-Finished: SUCCESS
+12:59:23 Started by user admin
+12:59:23 Running as SYSTEM
+12:59:23 Building in workspace /var/lib/jenkins/workspace/git jenkins
+12:59:23 The recommended git tool is: NONE
+12:59:23 using credential test1
+12:59:23  > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/git jenkins/.git # timeout=10
+12:59:23 Fetching changes from the remote Git repository
+12:59:23  > git config remote.origin.url https://github.com/cherylong2402/wiley-sre.git # timeout=10
+12:59:23 Fetching upstream changes from https://github.com/cherylong2402/wiley-sre.git
+12:59:23  > git --version # timeout=10
+12:59:23  > git --version # 'git version 2.34.1'
+12:59:23 using GIT_ASKPASS to set credentials 
+12:59:23  > git fetch --tags --force --progress -- https://github.com/cherylong2402/wiley-sre.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+12:59:24  > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+12:59:24 Checking out Revision 9a035524a398219966cf38eddcb02d3b8c78e391 (refs/remotes/origin/main)
+12:59:24  > git config core.sparsecheckout # timeout=10
+12:59:24  > git checkout -f 9a035524a398219966cf38eddcb02d3b8c78e391 # timeout=10
+12:59:27 Commit message: "Update jenkins stuff"
+12:59:27 First time build. Skipping changelog.
+12:59:27 [git jenkins] $ /bin/sh -xe /tmp/jenkins1063252757516830947.sh
+12:59:27 Finished: SUCCESS
 
 
 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
