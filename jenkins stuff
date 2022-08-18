@@ -1,1 +1,10 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+[test] $ /bin/sh -xe /tmp/jenkins7146721840800317348.sh
+Finished: SUCCESS
+
 
