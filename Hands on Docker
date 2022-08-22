@@ -1,7 +1,8 @@
+PART ONE
 docker ps --all
 docker ps --latest
 
-
+PART TWO
 mkdir MyDockerImages
 cd MyDockerImages
 touch Dockerfile
@@ -14,7 +15,15 @@ docker build -t my_first_image .
 docker images
 docker run --name test my_first_image
 
+////
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+docker build -t html-server-image:v1
+docker images
+docker run -d -p 80:80 html-server-image:v1
+curl localhost:80
 
+PART FOUR
 docker volume create unwound - Create a volume named 'unwound'
 docker run -v unwound:c:\data microsoft/windowsservercore - Start a container with the volume mapped to c:\data
 Write some files to c:\data in the container, then stop the container
