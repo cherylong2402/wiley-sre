@@ -1,0 +1,88 @@
+pip install flask
+
+flask run
+
+python -c "import flask; print(flask.__version__)"
+
+vi hello.py
+
+from flask import Flask
+import logging
+app = Flask(__name__)
+
+logging.basicConfig(level=logging.DEBUG)
+
+@app.route('/')
+def hello_world():
+    app.logger.info('Processing default request')
+    return '<h2>Hello, World!</h2>'
+
+if __name__ == '__main__':
+    app.run(host='127.0.0.1', port=3000, debug=True)
+    
+
+python hello.py
+
+export FLASK_APP=hello
+export FLASK_ENV=development
+
+
+from flask import Flask, render_template
+import logging
+
+app = Flask(__name__)
+logging.basicConfig(filename='records.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+
+@app.route('/')
+def home():
+   app.logger.info('Info level log')
+   app.logger.warning('Warning level log')
+   return render_template('index.html')
+   
+if __name__ == '__main__':
+   app.run()
+   
+   
+OUTPUT
+ * Serving Flask app 'hello'
+ * Debug mode: on
+'FLASK_ENV' is deprecated and will not be used in Flask 2.3. Use 'FLASK_DEBUG' instead.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:3000
+Press CTRL+C to quit
+ * Restarting with stat
+'FLASK_ENV' is deprecated and will not be used in Flask 2.3. Use 'FLASK_DEBUG' instead.
+ * Debugger is active!
+ * Debugger PIN: 134-722-963
+127.0.0.1 - - [26/Aug/2022 12:34:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Aug/2022 12:34:51] "GET /favicon.ico HTTP/1.1" 404 -
+
+
+With logs?
+ * Serving Flask app 'hello'
+ * Debug mode: on
+INFO:werkzeug:WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:3000
+INFO:werkzeug:Press CTRL+C to quit
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-722-963
+INFO:hello:Processing default request
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2022 16:10:24] "GET / HTTP/1.1" 200 -
+INFO:hello:Processing default request
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2022 16:10:25] "GET / HTTP/1.1" 200 -
+INFO:hello:Processing default request
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2022 16:10:31] "GET / HTTP/1.1" 200 -
+INFO:hello:Processing default request
+INFO:werkzeug:127.0.0.1 - - [26/Aug/2022 16:12:17] "GET / HTTP/1.1" 200 -
+
+
+
+http://127.0.0.1:3000
+
+
+
+http://13.229.85.202/
+
+
+http://54.254.128.54:5000/?celsius=50
