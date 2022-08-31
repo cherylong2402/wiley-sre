@@ -1,1 +1,50 @@
+Incidents will occur
+Prepare and Plan for them (Before incident)
+Practice response procedures (After incident)
+Error Budgets
+Change Velocity
+Opportunity for improvement
+Avoid heroics
+On-call rotation 
+
+
+Failure
+Complexity of system guarantees hardware failure
+Cloud 
+Security attacks
+Organization may or may not know they have been attacked
+Database corruption
+Component update
+Behave unexpectedly
+Google: 70% of failures are due to component/configuration change
+
+On call rotation
+Hard to provide 24/7 service availability
+It is really required?
+Is the support centralized or global?
+How are hand-offs handled?
+Heroics
+Attraction of acclaim for saving the data
+Set expectations
+Burnout
+
+Alert Fatigue
+Common when systems are at an edge point
+Alerts have self-heal cycles
+Monitoring cycles repeatedly alert the same issue
+False positive alert
+Often leads to ignored alerts
+Will self-heal
+Think it is not really an issue
+Too many alerts
+
+
+Continuous improvement
+Automation
+Manual tasks vs toil
+Documentation
+Reducing Toil
+Update SLO
+Update monitoring/SLI
+Update alerts
 
