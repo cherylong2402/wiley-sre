@@ -1,1 +1,47 @@
+An incident postmortem brings people together to discuss the details of an incident: 
+Why it happened
+Impact
+Actions taken to mitigate it and resolve it
+What should be done to prevent it from happening again
 
+Part of the incident response is to:
+Detect, Respond, Resolve, Learn
+
+
+Allows people to learn quickly from  mistakes and improve systems and processes. 
+Allows teams to continuously learn
+Allows everyone to contribute what they learned to build trust and resiliency within the team.
+Prepare on how to handle future incidents
+
+
+Learn from past experiences
+By taking time to reflect on what went well during a project, you can use that feedback to inform your plans for the next project
+Increase team communication
+Gives the opportunity for project managers to take a step back and reflect on how other team members felt about their part of the project. 
+Improve team morale
+Recognizing your team members and taking time to celebrate the good things your team has done is important for team bonding. 
+
+
+Blameless postmortem
+Post-project meeting in which you review problems to learn why they happened and prevent reoccurrence
+
+        No finger-pointing and no blame games
+        Focus on improving performance moving forward and proactively preventing the incident
+
+
+Blameless postmortem process
+Embrace Risk
+Incidents are a learning opportunity
+Encourage honesty and acceptance of failure
+Removing the fear of consequences frees people up to be honest about their misunderstandings
+Share information and build a timeline
+Make sure everyone’s on the same page about what actually happened
+
+
+Problem Statement
+Impact Statement
+Detection
+Timeline
+Root Cause
+Corrective Actions
+Blameless Culture
